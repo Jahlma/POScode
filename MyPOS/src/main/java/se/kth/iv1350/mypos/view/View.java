@@ -85,25 +85,25 @@ public class View{
     } 
     
     private void allItemScanned(boolean askForDiscount, CustomerID id){
-    SaleDTO sale;
-    sale = contr.allItemScanned(askForDiscount, id);
-    System.out.println("Operator has ended sale");
-    System.out.println("Total amount to pay incl. VAT: " + sale.getTotalPriceWithVAT().getAmount() + " kr");
+        SaleDTO sale;
+        sale = contr.allItemScanned(askForDiscount, id);
+        System.out.println("Operator has ended sale");
+        System.out.println("Total amount to pay incl. VAT: " + sale.getTotalPriceWithVAT().getAmount() + " kr");
     }
     
     private void finalizeSale(){
-    int pay;
-    Amount amount;
-    Scanner scanner = new Scanner(System.in);
-    System.out.println("Please enter how much cash to pay with");
-    pay = scanner.nextInt();
-    amount = new Amount(pay);   
-    contr.finalizeSale(amount);
+        int pay;
+        Amount amount;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter how much cash to pay with");
+        pay = scanner.nextInt();
+        amount = new Amount(pay);   
+        contr.finalizeSale(amount);
     }
     
     private void startSale(){
-    contr.saleStart();
-    System.out.println("A new sale has been started by operator");
+        contr.saleStart();
+        System.out.println("A new sale has been started by operator");
     }
     
 
