@@ -13,9 +13,7 @@ import se.kth.iv1350.mypos.exceptions.SystemDownFailureException;
 import se.kth.iv1350.mypos.logger.Logger;
 import se.kth.iv1350.mypos.model.Amount;
 import se.kth.iv1350.mypos.model.CustomerID;
-import se.kth.iv1350.mypos.model.FinalSaleInfo;
 import se.kth.iv1350.mypos.model.SaleObserver;
-import se.kth.iv1350.mypos.model.TotalRevenueFileOutput;
 import se.kth.iv1350.mypos.model.TotalRevenueView;
 
 /**
