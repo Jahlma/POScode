@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import se.kth.iv1350.mypos.exceptions.ItemIdentifierDatabaseException;
 import se.kth.iv1350.mypos.exceptions.ItemNotFoundException;
-import se.kth.iv1350.mypos.model.SaleItem;
+
 
 /**
  * Has a list of item identifiers which represent all available items for sale.
