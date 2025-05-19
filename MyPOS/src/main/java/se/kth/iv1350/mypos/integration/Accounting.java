@@ -6,7 +6,7 @@ package se.kth.iv1350.mypos.integration;
 
 import se.kth.iv1350.mypos.DTO.SaleDTO;
 import se.kth.iv1350.mypos.model.Amount;
-import se.kth.iv1350.mypos.model.FinalSaleInfo;
+
 
 /**
  * Represent total amount collected from different sales.
