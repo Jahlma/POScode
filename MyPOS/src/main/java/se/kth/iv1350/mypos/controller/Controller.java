@@ -7,7 +7,6 @@ package se.kth.iv1350.mypos.controller;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import se.kth.iv1350.mypos.DTO.ItemDTO;
 import se.kth.iv1350.mypos.DTO.SaleDTO;
 import se.kth.iv1350.mypos.exceptions.InventoryDatabaseException;
@@ -24,14 +23,12 @@ import se.kth.iv1350.mypos.integration.Register;
 import se.kth.iv1350.mypos.model.Amount;
 import se.kth.iv1350.mypos.model.CustomerID;
 import se.kth.iv1350.mypos.model.FinalSaleInfo;
-import se.kth.iv1350.mypos.model.Item;
 import se.kth.iv1350.mypos.model.Payment;
 import se.kth.iv1350.mypos.model.Receipt;
 import se.kth.iv1350.mypos.model.Sale;
 import se.kth.iv1350.mypos.model.SaleItem;
 import se.kth.iv1350.mypos.model.SaleObserver;
-import se.kth.iv1350.mypos.model.TotalRevenueFileOutput;
-import se.kth.iv1350.mypos.model.TotalRevenueView;
+
 
 
 /**
