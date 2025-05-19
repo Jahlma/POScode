@@ -86,6 +86,8 @@ public class Controller {
     * is used to store in sale.
     * @param itemidentifier Shows which item that is scanned. In current program it is manually called,
     * should appear from actual scan with machine.
+    * @trows OperationFailedException if an operation failed because of business logic failure
+    * @throws SystemDownFailureException if program has trouble to connect to server/database.
     */   
    public ItemDTO scanning(int itemidentifier)throws OperationFailedException, SystemDownFailureException{
        try{
