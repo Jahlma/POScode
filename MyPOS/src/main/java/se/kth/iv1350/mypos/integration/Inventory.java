@@ -45,6 +45,7 @@ public class Inventory {
     /**
     * Method is used to collect and return an item from a identifier
     * @param itemIdentifier itemIdentifier of an item.
+    * @throws InventoryDatabaseException hardcoded simulation of a database crash of inventory.
     */
     public Item getInfoOfItem(int itemIdentifier) throws InventoryDatabaseException{
     String itemString;
