@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package se.kth.iv1350.mypos.startup;
-import java.util.List;
 import se.kth.iv1350.mypos.controller.Controller;
 import se.kth.iv1350.mypos.integration.Accounting;
 import se.kth.iv1350.mypos.integration.Discount;
@@ -13,10 +12,8 @@ import se.kth.iv1350.mypos.integration.Printer;
 import se.kth.iv1350.mypos.integration.Register;
 import se.kth.iv1350.mypos.logger.FileLogger;
 import se.kth.iv1350.mypos.model.Amount;
-import se.kth.iv1350.mypos.model.FinalSaleInfo;
 import se.kth.iv1350.mypos.model.SaleObserver;
 import se.kth.iv1350.mypos.model.TotalRevenueFileOutput;
-import se.kth.iv1350.mypos.model.TotalRevenueView;
 import se.kth.iv1350.mypos.view.View;
 
 /**
