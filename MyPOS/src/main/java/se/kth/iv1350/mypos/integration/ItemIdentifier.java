@@ -26,6 +26,8 @@ public class ItemIdentifier {
     /**
     * Method looks trough sale list and returns a boolean value if its found or not.
     * @param itemIdentifier identifier that identifies specific items.
+    * @throws ItemNotFoundException if item does not exist in database
+    * @throws ItemIdentifierDatabaseException if identifier is 1010, simulates database crash.
     */
     public boolean lookupItem(int itemIdentifier)throws ItemNotFoundException, ItemIdentifierDatabaseException{
         
